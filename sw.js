@@ -11,7 +11,7 @@ const STATIC_ASSETS = [
   '/main.js',
   '/listado.js',
   '/propiedad.js',
-  '/data/properties.js',
+  '/properties.js',
   '/manifest.json',
 ];
 
