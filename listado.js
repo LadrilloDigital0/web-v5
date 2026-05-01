@@ -69,6 +69,7 @@ function applyFilters() {
     }
     if (city && p.city !== city) return false;
     if (operation && p.type !== operation) return false;
+    if (type && p.category !== type) return false;
     if (p.price < priceMin || p.price > priceMax) return false;
     if (bedsVal && p.bedrooms < parseInt(bedsVal)) return false;
     if (bathsVal && p.bathrooms < parseInt(bathsVal)) return false;
